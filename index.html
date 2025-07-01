@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pront-Ix : L'innovation digitale en Afrique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="headermenus">
+    <!-- Header complet -->
+    <header class="header">
+        <!-- Bande supérieure : contact -->
+        <div class="header-top">
+            <div class="container">
+                <div class="contact-info">
+                    <span class="phone">(+225) 0565596747 / 0759587952</span>
+                    <span class="email">contact@pront-ix.com</span>
+                    <span class="address">2 plateau carrefour Opera</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barre de navigation principale -->
+        <div class="nav-brand">
+            <img src="images/pront-ix.png" alt="pront-ix" class="logo">
+            <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">in</a>
+            </div>
+        </div>
+
+
+                <!-- Menu -->
+                <ul class="nav-menu">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#programs">Nos programmes</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+
+                <!-- Hamburger pour mobile (optionnel) -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="images/sourireh.jpg" alt="Personne travaillant sur ordinateur" class="hero-image">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Regagnez
+                    <br>
+                    <span class="typing-text">le sourire</span><br>
+                </h1>
+                <a href="#contact" class="cta-button">
+                    💬 Discutons de votre prochaine formation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <canvas id="neuronsCanvasAbout"></canvas>
+        <div class="neural-background" id="neuralBackground"></div>
+        
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.png" alt="Intelligence artificielle" class="ai-image">
+                </div>
+                <div class="about-text">
+                    <h class="section-about-title">pront-Ix : L'innovation digitale en Afrique</h>
+                    <p class="about-description">
+                        <strong>pront-Ix</strong> est une entreprise ivoirienne spécialisée dans la <strong>formation en intelligence artificielle (IA)</strong>
+                        et sa mise en œuvre au cœur du digital. Fondée à Abidjan par <strong>Thierry MEMEL</strong>, notre mission est de
+                        transformer l'Afrique en un acteur clé de la révolution numérique mondiale à travers trois objectifs
+                        stratégiques :
+                    </p>
+                    <ol class="objectives-list">
+                        <li><strong>Démocratiser l'accès à l'IA en Afrique et au-delà.</strong></li>
+                        <li><strong>Former la prochaine génération de leaders technologiques en IA.</strong></li>
+                        <li><strong>Accompagner les entreprises et particuliers dans l'intégration de l'IA dans leurs activités
+                            pour accroître leur productivité et compétitivité.</strong></li>
+                    </ol>
+                    <p class="cta-text">Rejoignez nous pour impacter la prochaine génération</p>
+                </div>
+            </div>
+            
+            <div class="question-section">
+                <h3 class="question">Et si l'avenir de l'Afrique se construisait aujourd'hui ?</h3>
+                <div class="audio-player">
+                    <button class="play-btn" id="playBtn">▶</button>
+                    <span class="audio-text">Listen to this content</span>
+                    <span class="audio-duration" id="audioDuration">00:00 / 01:05</span>
+                    <button class="play-id">Play Id</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <canvas id="neuronsCanvas"></canvas>
+        <div class="container">
+            <h2 class="section-program-title">
+                <span class="title-highlight">Nous proposons</span>
+                <span class="title-secondary">
+                    <span id="typingText" class="typing-text"></span>
+                </span>
+            </h2>
+            
+            <div class="programs-grid">
+                <!-- Program Card 1 -->
+                <div class="program-card">
+                    <img src="images/EntrepriseAI.png" alt="IA pour la transformation digitale" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">IA pour la transformation digitale des entreprises africaines</h3>
+                        <p class="program-description">Formation sur mesure pour intégrer l'IA dans les stratégies d'entreprise.</p>
+                    </div>
+                </div>
+                
+                <!-- Program Card 2 -->
+                <div class="program-card">
+                    <img src="images/certificate.png" alt="Certification en IA appliquée au marketing digital" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">Certification en IA appliquée au marketing digital</h3>
+                        <p class="program-description">Programme certifiant sur l'utilisation de l'IA dans le marketing digital</p>
+                    </div>
+                </div>
+                
+                <!-- Program Card 3 -->
+                <div class="program-card">
+                    <img src="images/business-booster.png" alt="IA Digital Business Booster" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">IA Digital Business Booster</h3>
+                        <p class="program-description">Aider les entrepreneurs, les PME, et les startups à prendre le contrôle de leur business avec L'IA</p>
+                    </div>
+                </div>
+                
+                <!-- Program Card 4 -->
+                <div class="program-card">
+                    <img src="images/genai-bootcamp.png" alt="Bootcamp IA générative pour créateurs de contenu" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">Bootcamp IA générative pour créateurs de contenu</h3>
+                        <p class="program-description">Formation intensive sur l'utilisation des outils d'IA générative</p>
+                    </div>
+                </div>
+                
+                <!-- Program Card 5 -->
+                <div class="program-card">
+                    <img src="images/leadership-feminin.jpg" alt="Leadership féminin en IA" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">Leadership féminin en IA</h3>
+                        <p class="program-description">Programme pour promouvoir et soutenir les femmes dans les carrières en IA</p>
+                    </div>
+                </div>
+                
+                <!-- Program Card 6 -->
+                <div class="program-card">
+                    <img src="images/deep-learning.jpg" alt="Programme de formation en Deep Learning & Machine Learning" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">Programme de formation en Deep Learning & Machine Learning</h3>
+                        <p class="program-description">Formation approfondie sur les techniques avancées. Développez des solutions IA innovantes qui créent de la valeur</p>
+                    </div>
+                </div>
+
+                <!-- Program Card 7 -->
+                <div class="program-card">
+                    <img src="images/Afrique.jpg" alt="IA pour l'innovation sociale en Afrique" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">IA pour l'innovation sociale en Afrique</h3>
+                        <p class="program-description">Formation sur l'utilisation de l'IA pour résoudre des défis sociaux</p>
+                    </div>
+                </div>      
+
+                <!-- Program Card 8 -->
+                <div class="program-card">
+                    <img src="images/fondamentaux.jpg" alt="Fondamentaux de l'IA pour tous" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">Fondamentaux de l'IA pour tous</h3>
+                        <p class="program-description">Introduction accessible à l'IA et ses applications</p>
+                    </div>
+                </div>  
+
+                <!-- Program Card 9 -->
+                <div class="program-card">
+                    <img src="images/éthique.jpg" alt="IA éthique et gouvernance" class="program-image">
+                    <div class="program-content">
+                        <h3 class="program-title">IA éthique et gouvernance</h3>
+                        <p class="program-description">Formation sur les enjeux éthiques, légaux et sociétaux de l'IA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Services Section -->
+    <section class="services">
+        <canvas id="neuronsCanvasServices">
+        <div class="container">
+            <h2 class="section-title">Propulsez votre succès avec nos solutions</h2>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Développement et Solutions Numériques</h3>
+                    <ul class="service-list">
+                        <li>IA & Machine Learning</li>
+                        <li>E-commerce et expérience utilisateur</li>
+                        <li>Développement et intégration de solutions IA</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3 class="service-title">Cloud, DevOps et Transformation Digitale</h3>
+                    <ul class="service-list">
+                        <li>Cloud consulting & DevOps</li>
+                        <li>Stratégie et transformation digitale des entreprises</li>
+                        <li>Gestion de projets agile et conseil</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3 class="service-title">Formation et Accompagnement</h3>
+                    <ul class="service-list">
+                        <li>Formation et accompagnement des entreprises</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </canvas>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="section-title">Ils nous font confiance</h2>
+            <div class="partners-logos">
+                <div class="partner-logo" style="background: #e53e3e; color: white; padding: 20px; border-radius: 10px; font-weight: bold;">Qucoon</div>
+                <div class="partner-logo" style="background: #3182ce; color: white; padding: 20px; border-radius: 10px; font-weight: bold;">AfricTECH</div>
+                <div class="partner-logo" style="background: #38a169; color: white; padding: 20px; border-radius: 10px; font-weight: bold;">ABC</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <canvas id="neuronsCanvasContact"></canvas>
+        <div class="container">
+            <h2 class="section-title">Contactez nous</h2>
+            <div class="contact-cta">
+                <h3 class="contact-title">Rejoignez l'aventure avec pront-Ix !</h3>
+                <p class="contact-subtitle">Vous souhaitez rejoindre ou soutenir pront-Ix</p>
+                <a href="#" class="cta-button">commencer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div style="font-size: 2rem; font-weight: bold; margin-bottom: 20px;">
+                        pront-<span style="color: #e53e3e;">Ix</span>
+                    </div>
+                    <p class="footer-description">
+                        pront-Ix est une entreprise ivoirienne spécialisée dans la <strong>formation en intelligence artificielle (IA)</strong> et sa mise en œuvre au cœur du digital.
+                    </p>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Abonnez vous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">in</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy;2025. pront-Ix tout droit réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-bubble">
+            <span class="chat-text">Bonjour!</span>
+        </div>
+        <div class="chat-message">
+            <span class="chat-text">Je souhaiterais discuter de ma prochaine formations !</span>
+        </div>
+        <button class="chat-button">💬</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
